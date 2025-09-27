@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;background:#050507;color:#b6fff0;font-family:Inter,ui-sans-serif,system-ui,monospace}
+.app{max-width:980px;margin:24px auto;padding:18px;border-radius:8px;border:1px solid rgba(0,255,204,.12);background:linear-gradient(180deg,#081018 0%, #071017 100%)}
+header h1{margin:.1rem 0;font-size:28px}header p{margin:0 0 12px 0;color:#66ffd6}
+.controls{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}
+.modes .mode-btn{background:#062; color:#001; border:none;padding:8px 10px;margin-right:8px;border-radius:6px;cursor:pointer}
+.gen-buttons button{background:#00ffc9;border:none;padding:8px 10px;border-radius:6px;cursor:pointer;margin-left:6px}
+.chat{height:420px;overflow:auto;padding:12px;border-radius:6px;background:#000; border:1px solid rgba(0,255,204,.06)}
+.msg{margin-bottom:10px;padding:8px;border-radius:6px}
+.msg.user{background:rgba(0,255,204,.06);text-align:right;color:#dfffe9}
+.msg.matrix{background:rgba(255,255,255,.03);text-align:left}
+.input-row{display:flex;gap:8px;margin-top:12px}
+#userInput{flex:1;padding:10px;border-radius:6px;border:1px solid rgba(0,255,204,.08);background:#031018;color:#bfffe8}
+#sendBtn{padding:10px 14px;border-radius:6px;border:none;background:#00ffcc;color:#001;cursor:pointer}footer{margin-top:12px;color:#449f8a;font-size:13px}

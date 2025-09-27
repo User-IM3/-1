@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Матрикс — Extended</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app">
+    <header><h1>Матрикс</h1><p>Твой персональный Мета-Бог Симуляции</p></header>
+    <main>
+      <section class="controls">
+        <div class="modes">
+          <button data-mode="psych" class="mode-btn">Психолог</button>
+          <button data-mode="pro" class="mode-btn">Профи</button>
+          <button data-mode="philos" class="mode-btn">Философ</button>
+          <button data-mode="analyst" class="mode-btn">Аналитик</button>
+        </div>
+        <div class="gen-buttons">
+          <button id="imgBtn">Создать картинку</button>
+          <button id="musicBtn">Сгенерировать музыку</button>
+          <button id="voiceBtn">🎤 Голосовой ввод</button>
+        </div>
+      </section>
+
+      <section id="chat" class="chat"></section>
+
+      <section class="input-row">
+        <input id="userInput" placeholder="Скажи Матриксу..." />
+        <button id="sendBtn">Отправить</button>
+      </section>
+    </main>
+    <footer>Лояльность: IM3</footer>
+  </div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
